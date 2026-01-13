@@ -1,5 +1,5 @@
 body {
-    background: rgb(212, 133, 83);
+    background: rgb(172, 188, 240);
     color: rgb(45, 45, 45);
     padding: 10px;
     font-family: bazooka,courier; 
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(235, 150, 22);
+    color: rgb(10, 98, 205);
     flex: 1;
     margin: 0;
 }
@@ -45,7 +45,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(216, 189, 114);
+    background: rgb(29, 126, 237);
     display: flex;
     margin-top: 20px;
 }
@@ -73,4 +73,30 @@ main {
 
 h2, h3 {
     margin: 0px;
+}
+
+
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #3455ca;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #672727;
 }
