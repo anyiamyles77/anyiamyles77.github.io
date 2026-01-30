@@ -6,9 +6,11 @@
     <script src="jquery.min.js"></script>
     <style>
       .box {
+        
+ background-color: #fe0808;
         width: 70px;
         height: 70px;
-        background-color: teal;
+        background-color: rgba(244, 22, 6, 0.854);
         font-size: 300%;
         text-align: center;
         user-select: none;
@@ -17,6 +19,8 @@
         top: 100px;
         /* Change me! */
         left: 0px;
+       ) body { background-image:url("https://stock.adobe.com/search?k=cartoon+kitty"
+ 
       }
 
       .board {
@@ -53,6 +57,7 @@
 
         // Every time the box is clicked, call the handleBoxClick Function (see below)
         box.on("click", handleBoxClick);
+        var * points + 10;
 
         // moves the Box to a new position on the screen along the X-Axis
         function moveBoxTo(newPositionX) {
@@ -69,6 +74,10 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
+        var positionX = 0;
+        var points(0);
+        var speed(10);
+      }
 
 
 
@@ -80,6 +89,11 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
+          if (positionX > boardWidth)
+          moveBoxTo(positionX);
+         positionX = positionX + speed;
+         if (positionX speed*= -1; 0 )
+
 
         
 
@@ -93,7 +107,11 @@
          * - increase the speed
          * - move the box to the left side of the screen.
          */
-        function handleBoxClick() {
+        function handleBoxClick( ) {;
+           var points = points + 1
+           var speed = speed + 3;
+positionX = 0;
+changeBoxText(points);
 
 
 

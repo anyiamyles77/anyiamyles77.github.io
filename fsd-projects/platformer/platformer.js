@@ -27,10 +27,18 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
+ createPlatform(100, 20, 10, 10, "lime"); // bright green for a finished platform
+   createCollectable("steve", 1350, 50);
+ 
+createCannon("top", 200, 100);
+createCannon("right", 300, 2000);
+createCannon("top", 200, 100);
+createCannon("left", 300, 2000);createCannon("bottom", 200, 100);
+createCannon("right", 300, 2000);
 
 
 
